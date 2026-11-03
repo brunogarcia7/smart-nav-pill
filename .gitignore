@@ -19,6 +19,10 @@ local.properties
 *.log
 *.hprof
 
+# APKs locais e notas de release (vao para a aba Releases, nao para o repo)
+*.apk
+RELEASE_NOTES.md
+
 # SO
 .DS_Store
 Thumbs.db

@@ -28,7 +28,7 @@ Se não concorda com isso, não instale.
 
 ## 📥 Download
 
-👉 **[Baixar o APK mais recente (SmartNavPill-1.1.apk)](https://github.com/brunogarcia7/smart-nav-pill/releases/download/v1.1/SmartNavPill-1.1.apk)**
+👉 **[Baixar o APK mais recente (SmartNavPill-1.2.apk — ~2 MB)](https://github.com/brunogarcia7/smart-nav-pill/releases/latest)**
 
 Ou veja todas as versões na aba **[Releases](https://github.com/brunogarcia7/smart-nav-pill/releases)**.
 
