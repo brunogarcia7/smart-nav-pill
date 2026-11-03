@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Nav Pill</string>
+    <string name="service_description">Detecta toque duplo e toque longo na barra de navegacao (gesture pill) para abrir os apps que voce escolher. Nenhum conteudo de tela e lido.</string>
+</resources>

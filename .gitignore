@@ -1,0 +1,24 @@
+# Build
+/build
+/app/build
+.gradle
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+
+# Keystore de teste (NUNCA versionar chaves de assinatura)
+*.keystore
+*.jks
+
+# Logs e temporarios
+*.log
+*.hprof
+
+# SO
+.DS_Store
+Thumbs.db

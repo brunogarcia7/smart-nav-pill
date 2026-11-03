@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Config do AccessibilityService do Smart Nav Pill.
+    - Nao lemos conteudo de tela (canRetrieveWindowContent=false): menos invasivo
+      e suficiente, pois so precisamos do overlay de toque.
+    - settingsActivity aponta para a tela principal do app.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_description"
+    android:settingsActivity="com.smartnavpill.ui.MainActivity"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="false" />
