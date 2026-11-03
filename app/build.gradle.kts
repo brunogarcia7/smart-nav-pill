@@ -15,8 +15,8 @@ android {
         applicationId = "com.smartnavpill"
         minSdk = 29
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 4
+        versionName = "1.2"
     }
 
     // Keystore de assinatura. NAO e versionada no Git (ver .gitignore). Quem
@@ -36,7 +36,11 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // R8: remove codigo e recursos nao usados (incluindo quase todos os
+            // icones do material-icons-extended), reduzindo muito o APK e
+            // otimizando o bytecode para rodar mais fluido.
+            isMinifyEnabled = true
+            isShrinkResources = true
             if (keystoreFile.exists()) {
                 signingConfig = signingConfigs.getByName("release")
             }
